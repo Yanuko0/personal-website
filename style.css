@@ -845,6 +845,9 @@ textarea.contact-input {
   .skills-title img{
     width: 80px;
   }
+  .header{
+    display: none;
+  }
 
   }
 
