@@ -832,7 +832,7 @@ textarea.contact-input {
   }
 
   .box{
-    height: 215px;
+    height: 210px;
   }
   .box h3{
     margin: 0;
@@ -842,6 +842,9 @@ textarea.contact-input {
     display: flex;
   }
 
+  .skills-title img{
+    width: 80px;
+  }
 
   }
 
