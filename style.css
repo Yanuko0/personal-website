@@ -397,6 +397,54 @@ body {
 }
 
 
+/*水波紋按鈕*/
+
+.ripple{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.ripple::before,
+.ripple::after{
+    content: "";
+    position: absolute;
+    top:-1.5em;
+    z-index: -1;
+    width: 200%;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 40%;
+    background-color: rgba(24, 84, 163, 0.25);
+    transition: 4s;
+}
+
+.ripple::before{
+  left: -80%;
+  transform: translate3d(0, 5em, 0) rotate(-340deg);
+}
+
+.ripple::after{
+  right: -80%;
+  transform: translate3d(0, 5em, 0) rotate(390deg);
+}
+
+.ripple:hover,
+.ripple:focus{
+  color: white;
+}
+
+.ripple:hover::before,
+.ripple:hover::after,
+.ripple:focus::before,
+.ripple:focus::after{
+  transform: none;
+  background-color: rgba(24, 84, 163, 0.25);
+}
+
 
 
 
