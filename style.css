@@ -778,7 +778,7 @@ textarea.contact-input {
 \*-----------------------------------*/
 
 .back-to-top {
-  color: var(--white);
+  color: var(--cadet-blue-crayola);
   font-size: 1.3rem;
   position: fixed;
   bottom: 160px;
@@ -803,7 +803,7 @@ textarea.contact-input {
   left: calc(100% + 7px);
   width: 100px;
   height: 1px;
-  background-color: var(--white);
+  background-color: var(--cadet-blue-crayola);
 }
 
 
