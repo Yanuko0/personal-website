@@ -850,6 +850,10 @@ textarea.contact-input {
   .skills-title img{
     width: 80px;
   }
+
+  .home, .about, .portfolio {
+    height: auto;
+  }
   
   }
 
