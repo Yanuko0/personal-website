@@ -914,6 +914,10 @@ textarea.contact-input {
   .img {
     display: none;
   }
+
+   #heroVideo {
+    display: none;
+  }
   
   }
 
