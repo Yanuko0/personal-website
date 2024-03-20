@@ -292,6 +292,10 @@ body {
 .rotate-img { display: none; }
 
 .hero {
+  background-image:url(assets/images/背景.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   padding-block: 100px var(--section-padding);
