@@ -906,6 +906,10 @@ textarea.contact-input {
   .home, .about, .portfolio {
     height: auto;
   }
+
+  .img {
+    display: none;
+  }
   
   }
 
