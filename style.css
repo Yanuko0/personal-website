@@ -884,6 +884,11 @@ textarea.contact-input {
 }
 
 @media(max-width:768px){
+
+  .header{
+    display: none;
+  }
+  
   .media-icons {
     display: none;
   }
